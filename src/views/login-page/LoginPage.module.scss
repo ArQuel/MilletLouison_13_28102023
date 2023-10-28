@@ -1,0 +1,21 @@
+.login_container {
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color);
+    height: 85vh;
+    h1 {
+        font-size: 2rem;
+        font-weight: normal;
+    }
+    .sign_in_icon {
+        font-size: 5rem;
+    }
+    .sign_in_content {
+        box-sizing: border-box;
+        background-color: white;
+        width: 300px;
+        margin: 0 auto;
+        padding: 2rem;
+        border: 2px solid #ccc;
+    }
+}

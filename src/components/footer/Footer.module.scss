@@ -1,0 +1,17 @@
+.footer_container {
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid #ccc;
+    padding: 1.5rem 0 1.5rem;
+    font-size: 1.6rem;
+    position: relative;
+    background-color: white;
+    @media (max-width: 920px) {
+        top: 63rem;
+    }
+}
+
+.footer_text {
+    margin: 0;
+    padding: 0;
+}
